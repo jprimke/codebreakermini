@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "wI/cCjQCUDkUY4GkuMXdneWvjjiC1bMuDvmqxl7jGYd6ZsL/06KgY69Cq4LWcaJb1JTwQH1/MglBY8WmXnTHAw==",
+  "success": true,
+  "projectFilePath": "/Users/jprimke/Projekte/CodeBreaker/CodeBreaker.API/CodeBreaker.API.csproj",
+  "expectedPackageFiles": [
+    "/Users/jprimke/.nuget/packages/microsoft.aspnetcore.openapi/7.0.3/microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
+    "/Users/jprimke/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/jprimke/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/jprimke/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/jprimke/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/jprimke/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/jprimke/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

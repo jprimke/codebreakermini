@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jprimke/Projekte/CodeBreaker/CodeBreaker.Shared/CodeBreaker.Shared.csproj": {}
+  },
+  "projects": {
+    "/Users/jprimke/Projekte/CodeBreaker/CodeBreaker.Shared/CodeBreaker.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jprimke/Projekte/CodeBreaker/CodeBreaker.Shared/CodeBreaker.Shared.csproj",
+        "projectName": "CodeBreaker.Shared",
+        "projectPath": "/Users/jprimke/Projekte/CodeBreaker/CodeBreaker.Shared/CodeBreaker.Shared.csproj",
+        "packagesPath": "/Users/jprimke/.nuget/packages/",
+        "outputPath": "/Users/jprimke/Projekte/CodeBreaker/CodeBreaker.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jprimke/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/f5IofS6rsB1FjcOADzeu7NsvvsBT1UgV1Wynqwia5e7UB49CoP/api": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+﻿<Properties StartupConfiguration="{69C768B0-9B8E-475C-B996-71C3020064DE}|Default">
+  <MonoDevelop.Ide.ItemProperties.CodeBreaker PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CodeBreaker.API FirstBuild="True" />
+</Properties>
