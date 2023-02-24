@@ -1,18 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBreaker", "CodeBreaker\CodeBreaker.csproj", "{69C768B0-9B8E-475C-B996-71C3020064DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBreaker", "src\UI\CodeBreaker\CodeBreaker.csproj", "{69C768B0-9B8E-475C-B996-71C3020064DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBreaker.Shared", "CodeBreaker.Shared\CodeBreaker.Shared.csproj", "{73FCBB76-E58C-47DB-8B5E-72D96645D0FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBreaker.Shared", "src\Shared\CodeBreaker.Shared\CodeBreaker.Shared.csproj", "{73FCBB76-E58C-47DB-8B5E-72D96645D0FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBreaker.Data", "CodeBreaker.Data\CodeBreaker.Data.csproj", "{B23B97FE-9FC6-4344-9F2B-2E731A0E6C48}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBreaker.Data", "src\Data\CodeBreaker.Data\CodeBreaker.Data.csproj", "{B23B97FE-9FC6-4344-9F2B-2E731A0E6C48}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5BC0F929-288D-4792-9C57-B33CB73B7691}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBreaker.API", "CodeBreaker.API\CodeBreaker.API.csproj", "{FC4DDE4E-8F30-4445-B0A2-66AFBBBD9B0C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBreaker.API", "src\Web\CodeBreaker.API\CodeBreaker.API.csproj", "{FC4DDE4E-8F30-4445-B0A2-66AFBBBD9B0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{EA6EA7C9-3299-4FDF-B62F-86BF12C3C176}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{9B9BFF7B-DD3A-42BB-A550-35361C1300AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A84E1BC0-3CF0-48A7-B088-2D541AD788AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{2153D91B-10EF-498C-ADDA-B5BA7E4BE9B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +44,11 @@ Global
 		{FC4DDE4E-8F30-4445-B0A2-66AFBBBD9B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC4DDE4E-8F30-4445-B0A2-66AFBBBD9B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC4DDE4E-8F30-4445-B0A2-66AFBBBD9B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69C768B0-9B8E-475C-B996-71C3020064DE} = {EA6EA7C9-3299-4FDF-B62F-86BF12C3C176}
+		{FC4DDE4E-8F30-4445-B0A2-66AFBBBD9B0C} = {9B9BFF7B-DD3A-42BB-A550-35361C1300AB}
+		{B23B97FE-9FC6-4344-9F2B-2E731A0E6C48} = {A84E1BC0-3CF0-48A7-B088-2D541AD788AD}
+		{73FCBB76-E58C-47DB-8B5E-72D96645D0FF} = {2153D91B-10EF-498C-ADDA-B5BA7E4BE9B5}
 	EndGlobalSection
 EndGlobal

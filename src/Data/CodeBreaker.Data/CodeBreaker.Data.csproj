@@ -11,13 +11,14 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\CodeBreaker.Shared\CodeBreaker.Shared.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
       <None Remove="Models\" />
+      <None Remove="Configuration\" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Models\" />
+      <Folder Include="Configuration\" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\..\Shared\CodeBreaker.Shared\CodeBreaker.Shared.csproj" />
     </ItemGroup>
 </Project>

@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CodeBreaker.Shared\CodeBreaker.Shared.csproj">
+    <ProjectReference Include="..\..\Shared\CodeBreaker.Shared\CodeBreaker.Shared.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>

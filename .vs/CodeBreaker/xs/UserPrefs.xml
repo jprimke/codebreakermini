@@ -1,5 +1,18 @@
-﻿<Properties StartupConfiguration="{69C768B0-9B8E-475C-B996-71C3020064DE}|Default">
-  <MonoDevelop.Ide.ItemProperties.CodeBreaker PreferredExecutionTarget="MyAppleMacCatalystID" />
+﻿<Properties StartupConfiguration="{69C768B0-9B8E-475C-B996-71C3020064DE}|Default" GitUserInfo="UsingMD">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.ItemProperties.Web.CodeBreaker.API FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.UI.CodeBreaker PreferredExecutionTarget="MyAppleMacCatalystID" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.CodeBreaker.API FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
